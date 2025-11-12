@@ -1,0 +1,105 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Figtree", sans-serif;
+    }
+
+    body {
+      background-color: #F4D04E;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      /* Prevent text from wrapping */
+      border: 0;
+    }
+
+    .card-container {
+      border: 2px solid black;
+      width: 380px;
+      background: #fff;
+      padding: 16px;
+      border-radius: 15px;
+      margin-bottom: 10px;
+      border-right: 10px solid black;
+      border-bottom: 10px solid black;
+    }
+
+    .card-container p {
+      font-size: 14px;
+    }
+
+    .card-container .publish-date {
+      margin: 7px 0 17px;
+      color: #6B6B6B;
+    }
+
+    .card-container h2 {
+      margin-bottom: 12px;
+      color: #111111;
+      font-size: 24px;
+    }
+
+    .card-container h2:hover {
+      color: #F4D04E;
+      cursor: pointer;
+    }
+
+    .card-container .content {
+      line-height: 1.4em;
+      color: #6B6B6B
+    }
+
+    .card-container button {
+      background-color: #F4D04E;
+      padding: 5px 10px;
+      font-weight: 700;
+      margin: 10px 0;
+      font-size: 16px;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+
+    .card-container .card-footer {
+      margin-top: 30px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .card-container .card-footer img {
+      height: 32px;
+      width: 32px;
+    }
+
+    .card-container .card-footer p {
+      font-weight: bold;
+      color: #111111;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .attribution a:hover {
+      font-weight: bold;
+    }
